@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <oralce_mod translate="label" oralce_module="oralce_mod">
+            <label>oralce_mod Extensions</label>
+            <sort_order>100</sort_order>
+        </oralce_mod>
+    </tabs>
+    <sections>
+        <oralce_mod translate="label" oralce_module="oralce_mod">
+            <label>Extension Options</label>
+            <tab>oralce_mod</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <oralce_mod_group translate="label" oralce_module="oralce_mod">
+                    <label>My Extension Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <oralce_mod_input translate="label">
+                            <label>My Input Field: </label>
+                            <comment>My Comment</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </oralce_mod_input>
+                       <!--  <oralce_mod_select translate="label">
+                            <label>My Dropdown: </label>
+                            <comment>Source oralce_model provider Magento's default Yes/No values</comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_oralce_model>adminhtml/system_config_source_yesno</source_oralce_model>
+                        </oralce_mod_select>
+                         -->
+                    </fields>
+                </oralce_mod_group>
+            </groups>
+        </oralce_mod>
+    </sections>
+</config>

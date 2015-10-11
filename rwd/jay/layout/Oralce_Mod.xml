@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <oralcemod_index_index>
+        <reference name="content">
+            <block type="core/template" template="oralce_mod/index.phtml" />
+        </reference>
+    </oralcemod_index_index>
+</layout>
